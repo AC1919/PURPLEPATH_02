@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f0ff 0%, #ede8ff 40%, #f0f4ff 100%);
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    background: linear-gradient(135deg, #5b0fa8, #7c3aed);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bot-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bot-video {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.speech-bubble {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #d8bfff;
+    flex: 1;
+}
+
+.selectors {
+    margin-top: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.response-card {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #7c3aed;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.link-card {
+    display: block;
+    text-decoration: none;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #d8bfff;
+    margin-top: 10px;
+    color: black;
+}
+
+.link-card:hover {
+    border-color: #7c3aed;
+}

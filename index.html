@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PurplePath</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>🟣 PurplePath</h1>
+    <p>Your Sheffield Careers Navigator</p>
+  </div>
+
+  <div class="bot-section">
+
+    <video autoplay muted loop playsinline class="bot-video">
+      <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <div class="speech-bubble" id="greeting"></div>
+
+  </div>
+
+  <div class="selectors">
+
+    <select id="categorySelect">
+      <option>Select Topic</option>
+    </select>
+
+    <select id="optionSelect">
+      <option>Select Detail</option>
+    </select>
+
+  </div>
+
+  <div id="responseContainer"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

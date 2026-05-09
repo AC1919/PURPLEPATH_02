@@ -1,0 +1,564 @@
+{
+  "bot_name": "PurplePath",
+  "university": "The University of Sheffield",
+  "base_url": "https://www.sheffield.ac.uk/careers",
+  "greeting": "Hey there! 👋 I'm PurplePath, your Sheffield Careers guide! I'm here to help you navigate the careers website without the hassle. What can I help you with today?",
+  "categories": {
+    "📄  CV & Cover Letters": {
+      "icon": "📄",
+      "greeting": "Awesome! Let's get your CV or cover letter sorted. What specifically do you need help with?",
+      "options": {
+        "CV Writing Guide": {
+          "response": "Great choice! A strong CV can open so many doors. Here are the official Sheffield CV resources — they're packed with tips and examples to help you stand out! 🌟",
+          "links": [
+            {
+              "title": "CV Writing Guide (Sheffield Careers)",
+              "description": "Step-by-step guidance on writing a professional CV",
+              "url": "https://www.sheffield.ac.uk/careers/new/student/act/cv"
+            },
+            {
+              "title": "CVs, Applications & Interviews Hub",
+              "description": "Full hub covering the entire application process",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            }
+          ]
+        },
+        "Get Instant CV Feedback (CareerSet)": {
+          "response": "CareerSet is brilliant — it's a FREE AI tool that gives you instant feedback on your CV within seconds! Give it a try before your next application. 🚀",
+          "links": [
+            {
+              "title": "CareerSet – Instant CV Feedback Tool",
+              "description": "Free AI-powered CV checker for all Sheffield students",
+              "url": "https://sheffield.ac.uk/careers/support/services/careerset"
+            }
+          ]
+        },
+        "Cover Letter Help": {
+          "response": "Cover letters can feel tricky, but don't worry — Sheffield Careers has you covered. Here's where to get help! ✉️",
+          "links": [
+            {
+              "title": "Cover Letters Guide",
+              "description": "How to write a compelling cover letter",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            },
+            {
+              "title": "CareerSet – Cover Letter Feedback",
+              "description": "Instant AI feedback on your cover letter too!",
+              "url": "https://sheffield.ac.uk/careers/support/services/careerset"
+            }
+          ]
+        },
+        "Book a CV Appointment with an Adviser": {
+          "response": "Sometimes you need a real human! Book a 1-to-1 with a Careers Adviser who can give you personalised CV feedback. They're super friendly! 😊",
+          "links": [
+            {
+              "title": "Career Connect – Book an Appointment",
+              "description": "Book a 1:1 CV appointment with a careers adviser",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            },
+            {
+              "title": "Careers Services Overview",
+              "description": "See all available support options",
+              "url": "https://sheffield.ac.uk/careers/support/services"
+            }
+          ]
+        },
+        "Academic CV / Postgrad Applications": {
+          "response": "Applying for a Masters, PhD or academic post? Academic CVs are a bit different — here's the specific guidance for you! 🎓",
+          "links": [
+            {
+              "title": "Academic CVs & Postgraduate Applications",
+              "description": "Guidance for masters, PhD and research applications",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            },
+            {
+              "title": "Postgraduate Careers Support",
+              "description": "Dedicated support for postgraduate students",
+              "url": "https://sheffield.ac.uk/careers/prospective/postgraduate-support"
+            }
+          ]
+        }
+      }
+    },
+    "🎯  Job Applications & Interviews": {
+      "icon": "🎯",
+      "greeting": "Let's nail those applications and interviews! What part of the process do you need help with?",
+      "options": {
+        "How to Write a Strong Application": {
+          "response": "From researching employers to submitting your application, here's everything you need to put your best foot forward! 💼",
+          "links": [
+            {
+              "title": "Applications & Interviews Guide",
+              "description": "Full guide on the job application process",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            },
+            {
+              "title": "Using AI in Your Application",
+              "description": "How to use generative AI responsibly in applications",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            }
+          ]
+        },
+        "Interview Preparation": {
+          "response": "Interviews can be nerve-wracking but preparation is everything! Sheffield has great resources to help you practise and succeed. You've got this! 💪",
+          "links": [
+            {
+              "title": "Interview Preparation Guide",
+              "description": "Tips and techniques for job interviews",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            },
+            {
+              "title": "Career Connect – Mock Interview Booking",
+              "description": "Book a mock interview with a careers adviser",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            }
+          ]
+        },
+        "Online Tests & Assessment Centres": {
+          "response": "Many employers use psychometric tests and assessment centres — here's how to prepare and what to expect! 📊",
+          "links": [
+            {
+              "title": "Assessment Centres & Online Tests",
+              "description": "Guidance on psychometric tests and assessment centre prep",
+              "url": "https://sheffield.ac.uk/careers/support/graduate-careers/finding"
+            },
+            {
+              "title": "Career Connect – Events & Workshops",
+              "description": "Attend mock assessment centre events",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            }
+          ]
+        },
+        "Speculative Applications & Networking": {
+          "response": "Not all jobs are advertised! Here's how to approach employers directly and use social media to unlock hidden opportunities. 🌐",
+          "links": [
+            {
+              "title": "Speculative Applications Guide",
+              "description": "How to contact employers who aren't advertising",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            },
+            {
+              "title": "Employers & Networking",
+              "description": "Connect with employers and build your network",
+              "url": "https://sheffield.ac.uk/careers/employers"
+            }
+          ]
+        },
+        "Applying with a Disability": {
+          "response": "Sheffield Careers is committed to supporting all students. Here's advice on disclosing a disability and finding supportive employers. ♿",
+          "links": [
+            {
+              "title": "Disability & Applying for Jobs",
+              "description": "Guidance on disability disclosure and employer research",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            },
+            {
+              "title": "The Suit Works – Free Interview Clothing",
+              "description": "Free formal clothing referral for interviews",
+              "url": "https://sheffield.ac.uk/careers/support/services"
+            }
+          ]
+        }
+      }
+    },
+    "💼  Placements & Work Experience": {
+      "icon": "💼",
+      "greeting": "Work experience is a game-changer for your CV! What kind of opportunity are you looking for?",
+      "options": {
+        "Placement Year": {
+          "response": "A placement year can seriously boost your career prospects — and Sheffield makes it easy to add one to your degree! Here's everything you need to know. 🏢",
+          "links": [
+            {
+              "title": "Placement Year Guide",
+              "description": "All about adding a placement year to your degree",
+              "url": "https://sheffield.ac.uk/study/career/placements"
+            },
+            {
+              "title": "Placements & Work Experience Hub",
+              "description": "Full hub for work experience opportunities",
+              "url": "https://sheffield.ac.uk/careers/support/experience"
+            }
+          ]
+        },
+        "Internships": {
+          "response": "Internships are a fantastic way to test a career path! Here's where to find internship opportunities at Sheffield. 🔍",
+          "links": [
+            {
+              "title": "Internships – Sheffield Careers",
+              "description": "Find and apply for internship opportunities",
+              "url": "https://sheffield.ac.uk/careers/support/experience"
+            },
+            {
+              "title": "Career Connect – Browse Internships",
+              "description": "Search live internship vacancies",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            }
+          ]
+        },
+        "Volunteering": {
+          "response": "Volunteering builds amazing skills AND helps your community. Win-win! Here's how to find volunteering opportunities. 🤝",
+          "links": [
+            {
+              "title": "Volunteering Opportunities",
+              "description": "Find unpaid volunteering and insight day positions",
+              "url": "https://sheffield.ac.uk/careers/support/experience"
+            },
+            {
+              "title": "Students' Union Volunteering",
+              "description": "SU-based volunteering and community projects",
+              "url": "https://su.sheffield.ac.uk/advice-and-support/work-and-employability"
+            }
+          ]
+        },
+        "Graduate Schemes": {
+          "response": "Graduate schemes are structured programmes offered by big employers — here's what you need to know and how to find them! 🎯",
+          "links": [
+            {
+              "title": "Graduate Schemes Guide",
+              "description": "Understanding and applying for graduate schemes",
+              "url": "https://sheffield.ac.uk/careers/support/graduate-careers/finding"
+            },
+            {
+              "title": "Career Connect – Graduate Opportunities",
+              "description": "Browse live graduate scheme vacancies",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            }
+          ]
+        },
+        "Virtual Work Experience": {
+          "response": "Can't commit to a full placement? Virtual work experience is flexible and still looks great on your CV! 💻",
+          "links": [
+            {
+              "title": "Virtual Work Experience",
+              "description": "Flexible virtual experience opportunities",
+              "url": "https://sheffield.ac.uk/careers/support/experience"
+            },
+            {
+              "title": "Placements Hub – All Options",
+              "description": "Explore all types of work experience",
+              "url": "https://sheffield.ac.uk/study/career/placements"
+            }
+          ]
+        }
+      }
+    },
+    "💰  Part-Time Work": {
+      "icon": "💰",
+      "greeting": "Looking to earn while you study? Great idea! What kind of part-time work are you interested in?",
+      "options": {
+        "Find Part-Time Jobs": {
+          "response": "Thousands of part-time jobs are posted on Career Connect every year! Here's where to search for jobs that fit around your studies. 🔎",
+          "links": [
+            {
+              "title": "Career Connect – Part-Time Jobs",
+              "description": "Search and apply for part-time jobs near you",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            },
+            {
+              "title": "Part-Time Work During Studies Guide",
+              "description": "Advice on balancing work and study",
+              "url": "https://sheffield.ac.uk/careers/support"
+            }
+          ]
+        },
+        "Part-Time Jobs Fair": {
+          "response": "Sheffield hosts a Part-Time Jobs Fair in autumn — meet local employers and find flexible work! Keep an eye on Career Connect for dates. 📅",
+          "links": [
+            {
+              "title": "Careers Events & Fairs",
+              "description": "Upcoming careers fairs and events including jobs fairs",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            },
+            {
+              "title": "Employability Hubs on Campus",
+              "description": "Drop in for help with part-time job queries",
+              "url": "https://sheffield.ac.uk/careers/support/services/hubs"
+            }
+          ]
+        },
+        "On-Campus Jobs (University)": {
+          "response": "The University and SU offer loads of student staff roles that pay at least the Real Living Wage. Check them out! 🏫",
+          "links": [
+            {
+              "title": "University Jobs Portal",
+              "description": "Student roles within the University of Sheffield",
+              "url": "https://sheffield.ac.uk/jobs"
+            },
+            {
+              "title": "SU Work & Employability",
+              "description": "Student Union job and employability support",
+              "url": "https://su.sheffield.ac.uk/advice-and-support/work-and-employability"
+            }
+          ]
+        }
+      }
+    },
+    "🎓  Graduate Careers": {
+      "icon": "🎓",
+      "greeting": "Thinking about life after graduation? Let's explore your options! What are you interested in?",
+      "options": {
+        "Finding Graduate Jobs": {
+          "response": "Whether you're after a graduate scheme or a direct-entry role, Sheffield Careers can help you land your first job! Here's where to start. 🚀",
+          "links": [
+            {
+              "title": "Finding Graduate Jobs Guide",
+              "description": "How and where to find the right graduate role",
+              "url": "https://sheffield.ac.uk/careers/support/graduate-careers/finding"
+            },
+            {
+              "title": "Career Connect – Graduate Vacancies",
+              "description": "Live graduate job listings updated daily",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            }
+          ]
+        },
+        "International Job Markets": {
+          "response": "Fancy working abroad? Sheffield's GoinGlobal database covers career guides and job boards for countries worldwide! 🌍",
+          "links": [
+            {
+              "title": "GoinGlobal – International Jobs Database",
+              "description": "Country-specific career guides and international job boards",
+              "url": "https://sheffield.ac.uk/careers/support/graduate-careers/finding"
+            },
+            {
+              "title": "Local & International Job Markets Hub",
+              "description": "Explore global career options",
+              "url": "https://sheffield.ac.uk/careers/support"
+            }
+          ]
+        },
+        "Career Planning & Exploring Options": {
+          "response": "Not sure what you want to do? That's completely normal! The careers team are brilliant at helping you figure things out. 🧭",
+          "links": [
+            {
+              "title": "Student & Graduate Support Hub",
+              "description": "Explore all your career options and pathways",
+              "url": "https://sheffield.ac.uk/careers/support"
+            },
+            {
+              "title": "Book a Careers Appointment",
+              "description": "1:1 session to explore your career options",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            }
+          ]
+        },
+        "Graduate Access (3 Years Post-Graduation)": {
+          "response": "Did you know Sheffield Careers supports you for up to 3 years after you graduate? You're never alone in your job search! 🌟",
+          "links": [
+            {
+              "title": "Graduate Career Connect Account",
+              "description": "Set up your graduate account to maintain access",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            },
+            {
+              "title": "Postgraduate Careers Support",
+              "description": "Continued support after graduation",
+              "url": "https://sheffield.ac.uk/careers/prospective/postgraduate-support"
+            }
+          ]
+        }
+      }
+    },
+    "📚  Further Study": {
+      "icon": "📚",
+      "greeting": "Thinking about continuing your studies? Let's find the right information for you!",
+      "options": {
+        "Masters Degrees": {
+          "response": "A Masters can open new doors and deepen your expertise. Here's how Sheffield Careers can help you with your postgraduate journey! 🎓",
+          "links": [
+            {
+              "title": "Postgraduate Careers Support",
+              "description": "Month-by-month careers calendar for masters students",
+              "url": "https://sheffield.ac.uk/careers/prospective/postgraduate-support"
+            },
+            {
+              "title": "Further Study & Academic Careers",
+              "description": "Guidance on choosing the right further study path",
+              "url": "https://sheffield.ac.uk/careers/support"
+            }
+          ]
+        },
+        "PhD & Research Careers": {
+          "response": "A PhD is an exciting journey — and Sheffield Careers is here to support you through it and beyond! 🔬",
+          "links": [
+            {
+              "title": "PhD & Research Career Guidance",
+              "description": "Support for PhD students and academic career planning",
+              "url": "https://sheffield.ac.uk/careers/prospective/postgraduate-support"
+            },
+            {
+              "title": "Academic CV Guide",
+              "description": "Writing a CV for academic and research positions",
+              "url": "https://www.sheffield.ac.uk/careers/students/cv"
+            }
+          ]
+        },
+        "Professional Qualifications": {
+          "response": "Looking to add a professional qualification to your skillset? Great idea! Here's how to explore your options. 📋",
+          "links": [
+            {
+              "title": "Further Study Options",
+              "description": "Exploring professional and vocational qualifications",
+              "url": "https://sheffield.ac.uk/careers/support"
+            },
+            {
+              "title": "Book a Careers Appointment",
+              "description": "Discuss further study options with an adviser",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            }
+          ]
+        }
+      }
+    },
+    "🛠️  Careers Services & Support": {
+      "icon": "🛠️",
+      "greeting": "I'm here to point you to the right support! What kind of service are you looking for?",
+      "options": {
+        "Book a 1:1 Careers Appointment": {
+          "response": "A 1-to-1 with a Careers Adviser is one of the most valuable things you can do! They're friendly, non-judgemental and super helpful. 😊",
+          "links": [
+            {
+              "title": "Career Connect – Book Appointment",
+              "description": "Book online appointments with expert advisers",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            },
+            {
+              "title": "Careers Services Overview",
+              "description": "All the ways the careers team can support you",
+              "url": "https://sheffield.ac.uk/careers/support/services"
+            }
+          ]
+        },
+        "Drop-in at Campus Hubs": {
+          "response": "Need quick help? Drop into one of the campus hubs — no appointment needed for initial queries! The staff and student ambassadors are brilliant. 📍",
+          "links": [
+            {
+              "title": "Employability Hubs on Campus",
+              "description": "Hub locations, opening hours, and what they offer",
+              "url": "https://sheffield.ac.uk/careers/support/services/hubs"
+            }
+          ]
+        },
+        "Careers Events & Workshops": {
+          "response": "Sheffield runs loads of events throughout the year — workshops, employer talks, career fairs, and more. Don't miss out! 📅",
+          "links": [
+            {
+              "title": "Career Connect – Events & Workshops",
+              "description": "Browse and register for upcoming careers events",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            },
+            {
+              "title": "Careers Fairs & Employer Events",
+              "description": "Sheffield's biggest careers fairs in the region",
+              "url": "https://sheffield.ac.uk/careers/support/services"
+            }
+          ]
+        },
+        "mySkills – Skills Tracker": {
+          "response": "mySkills helps you reflect on and record all the skills you build during your time at Sheffield — useful for CVs and interviews! 💡",
+          "links": [
+            {
+              "title": "mySkills Platform",
+              "description": "Record and reflect on your skills development",
+              "url": "https://sheffield.ac.uk/careers/support"
+            },
+            {
+              "title": "Sheffield Graduate Attributes",
+              "description": "Learn about the skills Sheffield helps you develop",
+              "url": "https://sheffield.ac.uk/careers/support"
+            }
+          ]
+        },
+        "Sheffield Alumni & Mentoring (SUMS)": {
+          "response": "The Sheffield University Mentoring Service connects you with alumni mentors who've been in your shoes. Genuinely invaluable! 🤝",
+          "links": [
+            {
+              "title": "Alumni Mentoring Platform (SUMS)",
+              "description": "Exclusive mentoring platform for students and alumni",
+              "url": "https://sheffield.ac.uk/careers/support/services"
+            },
+            {
+              "title": "Employers & Networking Guide",
+              "description": "Build your professional network",
+              "url": "https://sheffield.ac.uk/careers/employers"
+            }
+          ]
+        },
+        "Free Interview Clothing (The Suit Works)": {
+          "response": "Don't let clothes be a barrier to your success! Sheffield Careers can refer you to The Suit Works for FREE formal interview clothing. 👔",
+          "links": [
+            {
+              "title": "The Suit Works Referral",
+              "description": "Get a free referral for formal interview clothing",
+              "url": "https://sheffield.ac.uk/careers/support/services"
+            }
+          ]
+        }
+      }
+    },
+    "🌍  Skills & Development": {
+      "icon": "🌍",
+      "greeting": "Investing in your skills is always worth it! What would you like to develop?",
+      "options": {
+        "Skills & Personal Development": {
+          "response": "Sheffield gives you so many opportunities to build skills inside and outside the classroom. Here's how to make the most of them! 💪",
+          "links": [
+            {
+              "title": "Skills & Personal Development Hub",
+              "description": "Explore all skills development opportunities",
+              "url": "https://sheffield.ac.uk/careers/support"
+            },
+            {
+              "title": "mySkills – Track Your Progress",
+              "description": "Record the skills you build throughout your degree",
+              "url": "https://sheffield.ac.uk/careers/support"
+            }
+          ]
+        },
+        "LinkedIn & Online Presence": {
+          "response": "LinkedIn is essential for your career journey! Sheffield Careers offers LinkedIn Booster sessions to help you create a standout profile. 🔗",
+          "links": [
+            {
+              "title": "CV & LinkedIn Booster Events",
+              "description": "Attend a LinkedIn workshop run by the careers team",
+              "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+            },
+            {
+              "title": "Careers Workshops & Events",
+              "description": "All skills-building workshops available",
+              "url": "https://sheffield.ac.uk/careers/support/services"
+            }
+          ]
+        },
+        "Entrepreneurship & Starting a Business": {
+          "response": "Thinking about starting your own venture? Sheffield has amazing support for student entrepreneurs! 💡",
+          "links": [
+            {
+              "title": "Entrepreneurship Support",
+              "description": "Explore self-employment and startup support at Sheffield",
+              "url": "https://sheffield.ac.uk/careers/support"
+            },
+            {
+              "title": "Student & Graduate Careers Hub",
+              "description": "All career pathway options including self-employment",
+              "url": "https://sheffield.ac.uk/careers/support"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "fallback_message": "I'm not sure about that one, but the Sheffield Careers team will definitely know! You can reach them through Career Connect or drop into one of the campus hubs.",
+  "fallback_links": [
+    {
+      "title": "Sheffield Careers Main Page",
+      "description": "Your starting point for all things careers",
+      "url": "https://sheffield.ac.uk/careers"
+    },
+    {
+      "title": "Book a Careers Appointment",
+      "description": "Speak directly with a careers adviser",
+      "url": "https://sheffield.ac.uk/careers/support/services/career-connect"
+    }
+  ]
+}
