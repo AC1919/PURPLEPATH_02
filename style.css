@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #f5f0ff 0%, #ede8ff 40%, #f0f4ff 100%);
+   /* background: linear-gradient(135deg, #f5f0ff 0%, #ede8ff 40%, #f0f4ff 100%);*/
+   background: #131E29;
 }
 
 .container {
@@ -11,7 +12,7 @@ body {
 }
 
 .header {
-    background: linear-gradient(135deg, #63a80f, #7c3aed);
+    background: linear-gradient(135deg, #24125E);
     color: white;
     padding: 20px;
     border-radius: 20px;
