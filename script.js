@@ -5,7 +5,7 @@ const categorySelect = document.getElementById("categorySelect");
 const optionSelect = document.getElementById("optionSelect");
 const responseContainer = document.getElementById("responseContainer");
 
-fetch("purplepath_data.json")
+fetch("purplepath_data (Final).json")
   .then(res => res.json())
   .then(json => {
 
