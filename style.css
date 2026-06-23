@@ -1,8 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-   /* background: linear-gradient(135deg, #f5f0ff 0%, #ede8ff 40%, #f0f4ff 100%);*/
-   background: #131E29;
+    background: #131E29;
 }
 
 .container {
@@ -27,7 +26,8 @@ body {
 }
 
 .bot-video {
-    width: 250px;
+    width: 220px;
+    max-width: 100%;
     border-radius: 20px;
 }
 
@@ -37,6 +37,7 @@ body {
     border-radius: 20px;
     border: 2px solid #d8bfff;
     flex: 1;
+    min-width: 180px;
 }
 
 .selectors {
@@ -49,6 +50,7 @@ select {
     margin-bottom: 15px;
     border-radius: 10px;
     border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 .response-card {
@@ -68,12 +70,15 @@ select {
     border: 1px solid #d8bfff;
     margin-top: 10px;
     color: black;
+    box-sizing: border-box;
 }
 
 .link-card:hover {
     border-color: #7c3aed;
 }
 
+
+/* ── Footer ──────────────────────────────────────────── */
 
 .footer {
     background: #4D148C;
@@ -92,11 +97,25 @@ select {
     padding: 0 20px 20px;
 }
 
+.footer-logo {
+    min-width: 200px;
+}
+
 .footer-logo img {
     max-width: 250px;
+    width: 100%;
     background: white;
     padding: 10px;
     border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    min-width: 140px;
+}
+
+.footer-contact {
+    min-width: 200px;
 }
 
 .footer-links h3,
@@ -107,6 +126,7 @@ select {
 .footer-links ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .footer-links li {
@@ -129,8 +149,53 @@ select {
 
 .footer-bottom {
     text-align: center;
-    border-top: 1px solid rgba(255,255,255,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding: 15px;
     margin-top: 10px;
     font-size: 14px;
+}
+
+
+/* ── Responsive breakpoints ──────────────────────────── */
+
+@media (max-width: 600px) {
+    .bot-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .bot-video {
+        width: 100%;
+    }
+
+    .speech-bubble {
+        min-width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 12px;
+    }
+
+    .header h1 {
+        font-size: 1.4rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 16px 20px;
+    }
+
+    .footer-links,
+    .footer-contact,
+    .footer-logo {
+        min-width: unset;
+        width: 100%;
+    }
 }
