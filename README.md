@@ -54,12 +54,109 @@ PurplePath covers all major areas of the Sheffield Careers website:
 
 ## How It Works
 
-1. The student is greeted by PurplePath
-2. They select a **main topic** (e.g. "CVs, Cover Letters and Applications")
-3. They select a **subtopic** (e.g. "Getting Feedback on Your CV")
-4. PurplePath responds with a helpful message and direct links to the relevant Sheffield Careers resources
+Contributing / Updating
+I've written this section specifically for the University of Sheffield Careers Team. If the careers website changes, or you want to add new topics and resources, follow the steps I've laid out below. Everything can be done directly through GitHub.
+How to Edit the Data File on GitHub
+All of PurplePath's content lives in one file: purplepath_data.json. This is the only file you'll ever need to edit.
+Step 1 — Open the file on GitHub
 
----
+Go to the PurplePath GitHub repository
+Click on the file called purplepath_data.json
+Click the pencil icon in the top right corner of the file view
+This opens the file in GitHub's built-in editor — you won't need to install anything on your computer
+
+Step 2 — Understand the structure
+I've built PurplePath so that every topic follows the exact same pattern. Here's a real example so you can see how it works:
+json"CVs, Cover Letters and Applications": {
+  "icon": "📄",
+  "greeting": "Let's get your application materials sorted!",
+  "options": {
+    "Writing a CV": {
+      "response": "Here are the best Sheffield Careers resources for writing your CV.",
+      "links": [
+        {
+          "title": "CV Writing Guide",
+          "description": "A step-by-step guide to writing a strong CV.",
+          "url": "https://students.sheffield.ac.uk/careers/applications/cvs"
+        }
+      ]
+    }
+  }
+}
+Think of it this way:
+
+The topic is the main menu option a student sees first (e.g. CVs)
+The subtopic (inside options) is what they pick next
+The links are what PurplePath shows them at the end
+
+Step 3 — Update an existing link
+If a URL on the Sheffield Careers website has changed, here's how to update it:
+
+Find the relevant topic and subtopic in the file
+Look for the "url" field inside "links"
+Replace the old URL with the new one
+Make sure the new URL starts with https:// and has no spaces
+
+For example, I'd change this:
+json"url": "https://students.sheffield.ac.uk/careers/old-page"
+to this:
+json"url": "https://students.sheffield.ac.uk/careers/new-page"
+Step 4 — Add a new subtopic
+If Sheffield Careers has published a new resource and you'd like PurplePath to cover it, here's what I'd like you to do:
+
+Find the relevant topic (e.g. "Finding Jobs")
+Inside its "options" section, add a new block at the end using this format:
+
+json"Name of New Subtopic": {
+  "response": "Write a short, friendly sentence describing what this resource is.",
+  "links": [
+    {
+      "title": "Name of the page or resource",
+      "description": "One sentence explaining what the student will find there.",
+      "url": "https://paste-the-full-url-here.com"
+    }
+  ]
+}
+One thing to watch out for — make sure you add a comma after the closing } of the subtopic above it, unless it's the very last item in the list.
+Step 5 — Add a brand new topic
+If Sheffield Careers has launched a completely new section that I haven't covered yet, you can add it yourself like this:
+
+Scroll to the end of the "categories" section in the file
+Paste in a new block using this format:
+
+json"Name of New Topic": {
+  "icon": "replace with an appropriate icon",
+  "greeting": "Write a short welcome message for students entering this topic.",
+  "options": {
+    "First Subtopic": {
+      "response": "Friendly description of this resource.",
+      "links": [
+        {
+          "title": "Page Title",
+          "description": "What the student will find here.",
+          "url": "https://full-url-here.com"
+        }
+      ]
+    }
+  }
+}
+Again, make sure you add a comma after the closing } of the topic above it before pasting this in.
+Step 6 — Save your changes on GitHub
+Once you're happy with your edits, here's how to save them:
+
+Scroll to the bottom of the GitHub editor
+You'll see a box called "Commit changes"
+In the short description field, write something brief like: Updated CV links or Added new internship subtopic
+Click "Commit changes"
+That's it — your changes are saved and PurplePath will reflect them straight away
+
+A Few Things to Watch Out For
+
+Do not delete any commas, brackets, or quotation marks that were already in the file — removing these can break everything
+Every " must be a straight quote — not a curly quote, which some text editors insert automatically
+If you're unsure whether your edit looks right, paste the full file into jsonlint.com — it will highlight any errors and tell you exactly where they are
+If something goes wrong or you're not sure, feel free to reach out to me directly
+
 
 ## Data Source
 
