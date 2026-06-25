@@ -2,7 +2,7 @@
   "bot_name": "PurplePath",
   "university": "The University of Sheffield",
   "base_url": "https://www.sheffield.ac.uk/careers",
-  "greeting": "Hey there! 👋 I'm PurplePath, your Sheffield Careers guide! I'm here to help you navigate the careers website without the hassle. What can I help you with today?",
+  "greeting": "Hi there! 👋 I'm PurplePath, your Sheffield Careers guide! I'm here to help you navigate the careers website without the hassle. What can I help you with today?",
   "categories": {
     "📄  CVs, Cover Letters and Applications": {
       "icon": "📄",
